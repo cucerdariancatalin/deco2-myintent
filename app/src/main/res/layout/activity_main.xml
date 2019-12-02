@@ -29,4 +29,26 @@
         android:layout_marginBottom="16dp"
         android:text="@string/move_with_object" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_dial_number"
+        android:layout_marginBottom="16dp"
+        android:text="@string/dial_number" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_move_for_result"
+        android:layout_marginBottom="16dp"
+        android:text="@string/move_with_result" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_result"
+        android:gravity="center"
+        android:text="@string/result_from_activity"
+        android:textSize="24sp" />
+
 </LinearLayout>
